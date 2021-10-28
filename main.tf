@@ -9,7 +9,6 @@ module "ec2" {
   envType       = "DEV"
 }
 
-
 output "ipaddress" {
   value = module.ec2.ipaddress
 }
