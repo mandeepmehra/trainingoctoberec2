@@ -6,7 +6,7 @@ module "ec2" {
   instanceCount = 1
   instanceType  = "t2.micro"
   amiId         = "ami-09e67e426f25ce0d7"
-  envType       = "DEV"
+  envType       = "DEVENV"
 }
 
 output "ipaddress" {
